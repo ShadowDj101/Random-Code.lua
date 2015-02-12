@@ -1,4 +1,8 @@
 --functions
+function ERROR()
+io.read()
+print("ERROR!ERROR!ERROR!ERROR!ERROR!")
+end
 function code_error()
 print("Code Malfunction.")
 print("Resetting the code...  Please Wait...")
@@ -12,7 +16,7 @@ print "Type 'restart' to restart the program."
 end
 end
 end
-function end_code()
+function end_()
 print("end")
 io.read()
 end
@@ -21,7 +25,7 @@ print("Hello. This is some random code I created.")
 print("It might not be very interesting, but it is random.")
 print("Send suggestions to shadowdj101@yahoo.com")
 print("Thanks for the suggestions.")
-io.read()
+ERROR()
 code_error()
 print("Program Reset.")
 print("Running...")
@@ -32,7 +36,6 @@ else
 print("Ok. You don't speak German. Oh well.")
 end
 print("So, do you like the D0oW1\f_j*Uoo f$Sk9423q8><")
-if io.read() ~= "something you shouldn't type" then
+ERROR()
 code_error()
-end
-end_code()
+end_()
